@@ -18,4 +18,6 @@ void checkChargeRate(float chargeRate);
 // Battery check
 void checkBatteryParameters();
 
+bool BatteryIsOk(float temperature, float soc, float chargeRate);
+
 #endif // BATTERYCHECKS_HPP
